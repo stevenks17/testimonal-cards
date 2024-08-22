@@ -17,15 +17,15 @@ export default function Card({ user }: CardProps) {
           height={48}
         ></Image>
         <div className="flex grow flex-col gap-px">
-          <span className="text-justify text-lg font-semibold text-neutral-900">
+          <span className="text-justify font-sans text-lg font-semibold text-neutral-900">
             {user.name}
           </span>
-          <span className="text-sm font-normal text-neutral-600">
+          <span className="font-sans text-sm font-normal text-neutral-600">
             @{user.username}
           </span>
         </div>
       </div>
-      <span className="text-base font-normal text-neutral-600">
+      <span className="font-sans text-base font-normal text-neutral-600">
         {user.description}
       </span>
     </div>
